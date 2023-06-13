@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/"> 
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <ul class="nav justify-content-center">
+      <!-- <img .bg_img/> -->
         <li class="nav-item">
           <a class="nav-link active" href="#">About</a>
         </li>
@@ -25,6 +27,7 @@
           </li>
         </li>
     </ul>
+  </nav>
     <!-- Bootstrap jumpotron component -->
     <div class="jumbotron">
         <h1 class="display-4">Wolf Creek Habitat & Rescue</h1>
@@ -37,14 +40,17 @@
     </div>
     <!-- Bootstrap card component -->
     <div>
+      <h2>Summary</h2>
+      <p>For this non-profit project, we focused on rebranding with new UI styles, logo creation, and minimizing content to convey the most necessary to allow soon-to-visit users to understand the rules and quidelines for wolf interactions</p>
+    </div>
+    <div>
       <h2>Go straight to a selection below.</h2>
       <p>.........................................</p>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
           <div class="col">
             <div class="card" style="width: 14rem;">
-                <img src="Images/WCH_Affinity Map_Highlights.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Discovery</h5>
                   <p class="card-text">In this phase, I focus on understanding the stakeholder and user problems and needs.</p>
@@ -54,7 +60,6 @@
           </div>
           <div class="col">
             <div class="card" style="width: 14rem;">
-                <img src="Images/Feature Prioritization_HIGHLIGHT.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Definition</h5>
                   <p class="card-text">Here is where I synthesize the information gathered during research and analysis to define the project's goals, user personas, feature prioritization matrix, and design requirements.</p>
@@ -64,7 +69,6 @@
           </div>
           <div class="col">
             <div class="card" style="width: 14rem;">
-                <img src="Images/WCHR_SiteMap.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Ideation</h5>
                   <p class="card-text">This is where solutions are developed through brainstorming, card sorting, information architecture, and user flows. </p>
@@ -74,7 +78,6 @@
           </div>
           <div class="col">
             <div class="card" style="width: 14rem;">
-                <img src="Images/Mock_up_Desktop_Export.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Prototype</h5>
                   <p class="card-text">Here you'll find mid-fi and hi-fi wireframing, iterations based on user testing, the final prototype, and my key learnings from this project.</p>
@@ -86,30 +89,57 @@
           <!-- DISCOVERY -->
           <!-- Wolf Site before -->
           <div class="media">
-            <img src="Images/Wolf before home and info.png" width="450px" class="align-self-center mr-3" alt="Wolf Creek website before our redesign">
+            <img src="Images/Wolf before home and info.png" class="align-self-center mr-3" alt="Wolf Creek website before our redesign" width="380px" >
+            <!-- <h4> Website before redesign</h4> -->
             <div class="media-body">
               <h3 class="mt-0">Discovery</h3>
-              <p>This team project involved redesigning and rebranding a non-profit wolf rescue website and app in order to increase visitor compliance with the rules and guidelines for interactions with the wolves (the primary means of non-profit funding), as well as to increase wolf sponsorships. </p>
-                <p>We collaborated with the non-profit owner/stakeholder to find out more about the rescue, it’s mission, stakeholder frustrations and funding needs.  We wanted to understand what the website was primarily being used for and what the non-profit needed in order to be more successful.  </p>
-              <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p>This collaborative project involved redesigning and rebranding a non-profit website and app in order to <b>increase visitor compliance</b> with the rules and guidelines for interactions with the wolves (the primary means of non-profit funding), as well as to increase wolf sponsorships. </p>
+
+              <p>We had the valuable opportunity to engage in discussions with the stakeholder and owner of the rescue, regarding the non-profit and its specific <b>problems and needs</b>.  During these conversations, the stakeholder highlighted a recurring challenge she faces, wherein visitors often arrive without having familiarized themselves with the rules and guidelines outlined on the website prior to visiting. 
+
+              <p>Consequently, she finds herself in the unenviable position of having to enforce these rules and occasionally turn away individuals, resulting in her feeling <b>burdened</b> with the role of the "bad guy."</p>
+
+              <p class="mb-0">Recognizing the undesirability of this situation, we were determined to assist Kathy by presenting her with a website redesign aimed at reducing the frequency of such incidents. <b>Our objective</b> is to alleviate the need for her to assume this challenging role. Additionally, Kathy expressed a desire to enhance the visibility of wolf sponsorships on the website, an aspect we also aim to address in our proposed redesign.</p>
             </div>
           </div>
           <!-- DEFINE -->
           <div class="media">
-            <img src="Images/Wolf before home and info.png" width="450px" class="align-self-center mr-3" alt="Wolf Creek website before our redesign">
             <div class="media-body">
-              <h3 class="mt-0">Define</h3>
-              <p>This team project involved redesigning and rebranding a non-profit wolf rescue website and app in order to increase visitor compliance with the rules and guidelines for interactions with the wolves (the primary means of non-profit funding), as well as to increase wolf sponsorships. </p>
-                <p>We collaborated with the non-profit owner/stakeholder to find out more about the rescue, it’s mission, stakeholder frustrations and funding needs.  We wanted to understand what the website was primarily being used for and what the non-profit needed in order to be more successful.  </p>
-              <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <h3 class="mt-0">Definition</h3>
+              <p>The research conducted for this project involved utilizing <b>surveys and user interviews</b>, including a significant interview session with the non-profit stakeholder.</p>
+              <p>In our exploration of the both the stakeholder's and users' perspectives, we sought to understand their thoughts and feelings regarding wildlife sanctuaries or rescues. </p>
+              <p>The following <b>key questions</b> guided our inquiry: </p>
+              <ul>
+                <li>What factors influence their decision-making and planning when visiting such sanctuaries?</li>
+                <li>How do they perceive and engage with the concept of donating to these organizations?</li>
+                <li>Are there additional ways in which they feel compelled to support these organizations, beyond monetary contributions?</li>
+                <li>How do users navigate and utilize non-profit websites and the underlying motivations driving their behavior?</li>
+              </ul>
+              <p class="mb-0">Users generally affirmed the importance of some sort of <b>interaction</b> with wildlife, that non-profits need to make their mission clear, and it must be easy to access necessary visitor information.</p>
             </div>
-          </div>
+            <img src="Images/Rectangle 49.png" width="450px" class="align-self-center mr-3" alt="Affinity Map">
+             </div>
+             <div class="container-fluid">
+              <div class="row">
+                <div class="col"><img id="fourPics" src="Images/Bonkers 4 Puppers - Persona Empathy Map.jpg" width="500px" class="align-self-center mr-3" alt="Empathy Map"></div>
+                <div class="col">            <img id="fourPics" src="Images/Persona 1 light@2x.jpg" class="img-fluid" alt="user persona">
+                </div>
+                <div class="w-100"></div>
+              </div>
+            </div>
+            <img src="Images/Storyboard.png" class="img-fluid" alt="storyboard">
+          <div>
+            <div class="problemStatement">
+              <h3>Problem Statement</h3>
+                <p>Users encounter difficulty in conveniently accessing comprehensive information regarding the mission of the organization and the various means through which they can actively contribute, either by visiting the sanctuary or making donations to support the commendable efforts undertaken by Wolf Creek Habitat & Rescue.</p>
+            </div>
           <!-- IDEATE -->          
           <div class="media">
             <img src="Images/Wolf before home and info.png" width="450px" class="align-self-center mr-3" alt="Wolf Creek website before our redesign">
             <div class="media-body">
               <h3 class="mt-0">Ideation</h3>
-              <p>This team project involved redesigning and rebranding a non-profit wolf rescue website and app in order to increase visitor compliance with the rules and guidelines for interactions with the wolves (the primary means of non-profit funding), as well as to increase wolf sponsorships. </p>
+              <p>The research conducted for this project encompassed a comprehensive approach utilizing surveys and user interviews, including a significant interview session with the non-profit stakeholder. </p>
+              <p>In our exploration of the users' perspectives, we sought to understand their thoughts and sentiments regarding wildlife sanctuaries or rescues. The following key questions guided our inquiry:</p>
                 <p>We collaborated with the non-profit owner/stakeholder to find out more about the rescue, it’s mission, stakeholder frustrations and funding needs.  We wanted to understand what the website was primarily being used for and what the non-profit needed in order to be more successful.  </p>
               <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             </div>
@@ -121,7 +151,7 @@
               <h3 class="mt-0">Prototype</h3>
               <p>This team project involved redesigning and rebranding a non-profit wolf rescue website and app in order to increase visitor compliance with the rules and guidelines for interactions with the wolves (the primary means of non-profit funding), as well as to increase wolf sponsorships. </p>
                 <p>We collaborated with the non-profit owner/stakeholder to find out more about the rescue, it’s mission, stakeholder frustrations and funding needs.  We wanted to understand what the website was primarily being used for and what the non-profit needed in order to be more successful.  </p>
-              <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p class="mb-0">We gained valuable insights into her deep commitment to enhancing the visitor information page</p>
             </div>
           </div>
         </div>

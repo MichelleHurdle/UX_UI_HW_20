@@ -1,6 +1,50 @@
+body div{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.card {
+  margin: 5px;
+}
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
     border-top: 4px solid rgba(0, 0, 0, 0.1);
   }
+  /* .bg_img {
+   max-width: 100%;
+   background-image: url("/Images/Michelle_a_banner_for_a_website_in_bright_pinks_dark_pinks_and__22f4b433-a3ab-4f47-83a2-84b09de297e4\ \(1\).png");
+  } */
+  #fourPics {
+    padding-top: 40px;
+  }
+  .media {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* #wolfHomeInfoPages {
+    padding: 20px;
+  } */
+  .media-body {
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+  .problemStatement {
+    Padding: 40px;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .media::cue-region: column;
+} */
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
