@@ -1,50 +1,79 @@
-body div{
-  padding-left: 5%;
-  padding-right: 5%;
+/* .btn btn-primary {
+  background-color: aquamarine;
+} */
+.summary {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-.card {
-  margin: 5px;
+.row {
+  margin-left: 20%;
+  margin-right: 20%;
 }
 hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     border: 0;
-    border-top: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
   }
-  /* .bg_img {
-   max-width: 100%;
-   background-image: url("/Images/Michelle_a_banner_for_a_website_in_bright_pinks_dark_pinks_and__22f4b433-a3ab-4f47-83a2-84b09de297e4\ \(1\).png");
-  } */
-  #fourPics {
-    padding-top: 40px;
-  }
-  .media {
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  /* #wolfHomeInfoPages {
-    padding: 20px;
-  } */
-  .media-body {
-    margin-top: 40px;
-    padding-left: 10px;
-    padding-right: 20px;
-  }
-  .problemStatement {
-    Padding: 40px;
-  }
-
-  // Small devices (landscape phones, 576px and up)
+/* .bg_img {
+  max-width: 100%;
+  background-image: url("/Images/Michelle_a_banner_for_a_website_in_bright_pinks_dark_pinks_and__22f4b433-a3ab-4f47-83a2-84b09de297e4\ \(1\).png");
+} */
+.imagine {
+  color: rgb(42, 181, 98);
+  padding: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.media {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* #wolfHomeInfoPages {
+  padding: 20px;
+} */
+.media-body {
+  margin-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#empathyMap {
+  padding: 5%;
+}
+#userPersona {
+  padding: 5%;
+}
+#storyboard {
+  padding: 5%;
+}
+.problemStatement {
+  Padding: 40px;
+}
+.userInsight {
+  padding: 40px;
+}
+#featurePrioritization {
+  padding: 5%;
+}
+#ideation {
+  padding: 5%;
+}
+#navCardSort {
+  padding: 5%;
+}
+  /* // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { ... } */
 
 /* // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .media::cue-region: column;
 } */
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+/* // Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
